@@ -179,7 +179,6 @@ public class Basics {
         if(arr.length != 1 & arr.length != 0){
             for(int i = 1; i < arr.length; i += 2){
                 current_sum += arr[i];
-
             }
         }
         return current_sum;
